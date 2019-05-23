@@ -11,7 +11,6 @@ app.get('/token', function(req, resp) {
   var client_id = "d00a707873a040e8bc620e8ce9a77ca1";
   var client_secret = "380efea1441642dab0bf913a6db7f729";
 
-  // your application requests authorization
   var requestdata = {
     url: 'https://accounts.spotify.com/api/token',
     headers: {
